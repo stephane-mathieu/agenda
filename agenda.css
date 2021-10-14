@@ -1,0 +1,429 @@
+         @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+         .title-calendrier,
+         .title-annee {
+             text-align: center;
+             color: gold;
+             font-size: 2em;
+             font-family: 'Dancing Script', cursive;
+         }
+         
+         .title-annee {
+             text-align: center;
+             color: gold;
+         }
+         
+         .nb19 {
+             color: rgb(73, 64, 194);
+             text-align: center;
+             font-size: 2em;
+         }
+         
+         .Formation {
+             color: rgba(18, 230, 88, 0.514);
+             text-align: center;
+             font-size: 2em;
+         }
+         
+         .titlebox {
+             display: flex;
+             justify-content: space-between;
+             margin: 2px 7em;
+             font-size: 2em;
+         }
+         
+         body {
+             background: rgba(0, 0, 0, 0.822);
+             margin: 0;
+             padding: 0;
+         }
+         
+         .box {
+             height: 100vh;
+             width: 80%;
+             display: grid;
+             grid-template-columns: repeat(7, 1fr);
+             grid-template-rows: repeat(6, 1fr);
+             grid-template-areas: " Lundi Mardi  Mercredi Jeudi Vendredi  Samedi Dimanche";
+             border: solid;
+             border-radius: 5%;
+             background-color: white;
+             margin: auto;
+         }
+         
+         .Juillet {
+             grid-area: Juillet;
+             text-align: center;
+             color: gold;
+             font-family: 'Dancing Script', cursive;
+         }
+         
+         .Année {
+             grid-area: Année;
+             text-align: center;
+             color: gold;
+             font-family: 'Dancing Script', cursive;
+         }
+         
+         .Lundi {
+             grid-area: Lundi;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             color: black;
+             font-size: 1.5em;
+         }
+         
+         .Mardi {
+             grid-area: Mardi;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             color: black;
+             font-size: 1.5em;
+         }
+         
+         .Mercredi {
+             grid-area: Mercredi;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             color: black;
+             font-size: 1.5em;
+         }
+         
+         .Jeudi {
+             grid-area: Jeudi;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             color: black;
+             font-size: 1.5em;
+         }
+         
+         .Vendredi {
+             grid-area: Vendredi;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             color: black;
+             font-size: 1.5em;
+         }
+         
+         .Samedi {
+             grid-area: Samedi;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             color: black;
+             font-size: 1.5em;
+         }
+         
+         .Dimanche {
+             grid-area: Dimanche;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             color: black;
+             font-size: 1.5em;
+         }
+         
+         .nb111,
+         .nb222,
+         .nb333,
+         .nb1,
+         .nb2,
+         .nb3,
+         .nb4,
+         .nb5,
+         .nb6,
+         .nb7,
+         .nb8,
+         .nb9,
+         .nb10,
+         .nb11,
+         .nb12,
+         .nb13,
+         .nb14,
+         .nb15,
+         .nb16,
+         .nb17,
+         .nb18,
+         .nb19,
+         .nb20,
+         .nb21,
+         .nb22,
+         .nb23,
+         .nb24,
+         .nb25,
+         .nb26,
+         .nb27,
+         .nb28,
+         .nb29,
+         .nb30,
+         .nb31,
+         .nb311 {
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             color: black;
+             font-size: 1.5em;
+             padding: 5% 5%;
+             text-decoration: none;
+         }
+         
+         .nb19 {
+             background-color: rgba(109, 102, 209, 0.568);
+             border-radius: 20%;
+         }
+         
+         .nb12,
+         .nb13,
+         .nb14,
+         .nb15,
+         .nb16,
+         .nb17,
+         .nb18 {
+             background-color: rgba(34, 209, 186, 0.267);
+             border-radius: 20%;
+         }
+         
+         .nb111,
+         .nb6,
+         .nb3,
+         .nb29 {
+             background-color: rgba(103, 65, 165, 0.267);
+             border-radius: 20%;
+         }
+         
+         .nb1:hover {
+             background-color: rgba(34, 116, 209, 0.267);
+             ;
+         }
+         
+         .nb2:hover {
+             background-color: rgba(34, 116, 209, 0.267);
+         }
+         
+         .nb3:hover {
+             background-color: rgba(34, 116, 209, 0.267);
+         }
+         
+         .nb5:hover {
+             background-color: rgba(34, 116, 209, 0.267);
+         }
+         
+         .nb6:hover {
+             background-color: rgba(34, 116, 209, 0.267);
+         }
+         
+         .nb7:hover {
+             background-color: rgba(34, 116, 209, 0.267);
+         }
+         
+         .nb8:hover {
+             background-color: rgba(34, 116, 209, 0.267);
+         }
+         
+         .nb9:hover {
+             background-color: rgba(34, 116, 209, 0.267);
+         }
+         
+         .nb10:hover {
+             background-color: rgba(34, 116, 209, 0.267);
+         }
+         
+         .nb11:hover {
+             background-color: rgba(34, 116, 209, 0.267);
+         }
+         
+         .nb12:hover {
+             background-color: rgba(34, 116, 209, 0.267);
+         }
+         
+         .nb13:hover {
+             background-color: rgba(34, 116, 209, 0.267);
+         }
+         
+         .nb14:hover {
+             background-color: rgba(34, 116, 209, 0.267);
+         }
+         
+         .nb15:hover {
+             background-color: rgba(34, 116, 209, 0.267);
+         }
+         
+         .nb16:hover {
+             background-color: rgba(34, 116, 209, 0.267);
+         }
+         
+         .nb17:hover {
+             background-color: rgba(34, 116, 209, 0.267);
+         }
+         
+         .nb18:hover {
+             background-color: rgba(34, 116, 209, 0.267);
+         }
+         
+         .nb19:hover {
+             background-color: rgba(34, 116, 209, 0.267);
+         }
+         
+         .nb20:hover {
+             background-color: rgba(34, 116, 209, 0.267);
+         }
+         
+         .nb21:hover {
+             background-color: rgba(34, 116, 209, 0.267);
+         }
+         
+         .nb22:hover {
+             background-color: rgba(34, 116, 209, 0.267);
+         }
+         
+         .nb23:hover {
+             background-color: rgba(34, 116, 209, 0.267);
+         }
+         
+         .nb24:hover {
+             background-color: rgba(34, 116, 209, 0.267);
+         }
+         
+         .nb25:hover {
+             background-color: rgba(34, 116, 209, 0.267);
+         }
+         
+         .nb26:hover {
+             background-color: rgba(34, 116, 209, 0.267);
+         }
+         
+         .nb27:hover {
+             background-color: rgba(34, 116, 209, 0.267);
+         }
+         
+         .nb28:hover {
+             background-color: rgba(34, 116, 209, 0.267);
+         }
+         
+         .nb29:hover {
+             background-color: rgba(34, 116, 209, 0.267);
+         }
+         
+         .nb30:hover {
+             background-color: rgba(34, 116, 209, 0.267);
+         }
+         
+         .nb31:hover {
+             background-color: rgba(34, 116, 209, 0.267);
+         }
+         
+         .nb222:hover {
+             background-color: rgba(34, 116, 209, 0.267);
+         }
+         
+         .nb333:hover {
+             background-color: rgba(34, 116, 209, 0.267);
+         }
+         
+         .nb111:hover {
+             background-color: rgba(34, 116, 209, 0.267);
+         }
+         
+         .nb311:hover {
+             background-color: rgba(34, 116, 209, 0.267);
+         }
+         
+         button {
+             height: 20px;
+             position: relative;
+             margin: -20px -50px;
+             width: 200px;
+             top: 50%;
+             left: 48%;
+             font-size: 1em;
+             border-radius: 30px;
+             background: gold;
+         }
+         
+         .button {
+             height: 20px;
+             position: relative;
+             margin: -7px -50px;
+             width: 200px;
+             top: 50%;
+             left: 48%;
+             font-size: 1em;
+             border-radius: 30px;
+             background: gold;
+             text-align: center;
+         }
+         
+         .areh {
+             text-decoration: none;
+         }
+         
+         .button:hover {
+             cursor: cell;
+             box-shadow: 4px 4px 5px white;
+             transition: 0.5 ease;
+             cursor: pointer;
+             transform: scale(1.2);
+         }
+         
+         .tablee {
+             border-radius: 5%;
+         }
+         
+         .formul {
+             text-align: center;
+             color: white;
+             font-size: 1.5em;
+             color: white;
+             font-family: Caflisch Script, Adobe Poetica, Sanvito, Ex Ponto, Snell Roundhand, Zapf-Chancery, cursive;
+             font-weight: bold;
+             text-align: center;
+             font-family: 'Dancing Script', cursive;
+         }
+         
+         .Nouvel-evenement {
+             text-align: center;
+             color: white;
+             font-size: 1.5em;
+             color: white;
+             font-family: Caflisch Script, Adobe Poetica, Sanvito, Ex Ponto, Snell Roundhand, Zapf-Chancery, cursive;
+             font-weight: bold;
+             text-align: center;
+             font-family: 'Dancing Script', cursive;
+         }
+         
+         .tester {
+             width: 750px;
+             flex-direction: center;
+         }
+         
+         .tablee {
+             height: 20px;
+             position: relative;
+             margin: -20px -50px;
+             width: 200px;
+             top: 50%;
+             left: 48%;
+         }
+         
+         .button-agend {
+             border: 1px solid orange;
+             padding: 10px;
+             background-color: orange;
+         }
+         
+         p {
+             width: 41px;
+             padding-left: 700px;
+             text-align: left;
+             vertical-align: top;
+         }
+         
+         label.left {
+             float: left;
+             margin-left: -305px;
+             font-weight: bold;
+         }
